@@ -5,12 +5,12 @@ variable "credentials" {
 
 variable "project" {
   description = "Project name"
-  default     = "660490800276"
+  default     = ""
 }
 
 variable "region" {
   description = "Project location"
-  default     = "us-central1"
+  default     = ""
 }
 
 variable "location" {
@@ -25,7 +25,7 @@ variable "bq_dataset_name" {
 
 variable "gcs_bucket_name" {
   description = "Storage name"
-  default     = "660490800276-tb"
+  default     = ""
 
 }
 
